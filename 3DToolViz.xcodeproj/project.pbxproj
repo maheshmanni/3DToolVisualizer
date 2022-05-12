@@ -68,8 +68,8 @@
 		B23AF53E282C9F3A00B56EF7 /* OpenGLRenderAPI.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OpenGLRenderAPI.hpp; sourceTree = "<group>"; };
 		B23AF541282C9FE900B56EF7 /* RendererAPI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RendererAPI.cpp; sourceTree = "<group>"; };
 		B23AF542282C9FE900B56EF7 /* RendererAPI.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RendererAPI.hpp; sourceTree = "<group>"; };
-		B29D3F9B27DF9B7E008A12BA /* shader.vert */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = shader.vert; path = ../../../../../../../../Documents/Learning/3DToolViz/shaders/shader.vert; sourceTree = BUILT_PRODUCTS_DIR; };
-		B29D3F9C27DF9BC0008A12BA /* shader.frag */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = shader.frag; path = ../../../../Users/maheshmanni/Documents/Learning/3DToolViz/shaders/shader.frag; sourceTree = DEVELOPER_DIR; };
+		B23AF544282CAA4A00B56EF7 /* shader.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader.frag; sourceTree = "<group>"; };
+		B23AF545282CAA4A00B56EF7 /* shader.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader.vert; sourceTree = "<group>"; };
 		B2EF06D72800A12900AFC479 /* GLShaderCompiler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GLShaderCompiler.cpp; sourceTree = "<group>"; };
 		B2EF06D82800A12900AFC479 /* GLShaderCompiler.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GLShaderCompiler.hpp; sourceTree = "<group>"; };
 		B2EF06DB2802814500AFC479 /* shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shader.h; path = 3DToolViz/shader.h; sourceTree = SOURCE_ROOT; };
@@ -190,8 +190,8 @@
 		B29D3F9A27DF9B57008A12BA /* shaders */ = {
 			isa = PBXGroup;
 			children = (
-				B29D3F9B27DF9B7E008A12BA /* shader.vert */,
-				B29D3F9C27DF9BC0008A12BA /* shader.frag */,
+				B23AF544282CAA4A00B56EF7 /* shader.frag */,
+				B23AF545282CAA4A00B56EF7 /* shader.vert */,
 			);
 			path = shaders;
 			sourceTree = "<group>";

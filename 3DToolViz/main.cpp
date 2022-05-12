@@ -42,8 +42,8 @@ void display(GLFWwindow* window, double currentTime) {
     pRendererAPI->Clear();
     if(!pShader)
     {
-        pShader = new Shader("../../../../../../../../Documents/Learning/3DToolViz/shaders/shader.vert",
-                             "../../../../../../../../Documents/Learning/3DToolViz/shaders/shader.frag");
+        pShader = new Shader("../../../../../../../../Documents/Learning/3DToolVisualizer/3DToolVisualizer/shaders/shader.vert",
+                             "../../../../../../../../Documents/Learning/3DToolVisualizer/3DToolVisualizer/shaders/shader.frag");
     }
     pShader->use();
     glBindVertexArray(vao);
